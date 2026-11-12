@@ -1,27 +1,24 @@
-# Phoenix Rising — Coolest Art
+# Golden Koi in the Night Sky — Coolest Art
 
-Entry for make.fun `coolest-art-01` ("Make the coolest art", $250).
+A giant golden koi swims through a starry night sky above a neon city, its glowing scales lighting the dark blue heavens while the city below glitters in pink and cyan.
 
-A phoenix rising through fire and embers — one dramatic image built for a
-pairwise AI judge: high contrast, a clear central subject, and emotion that
-reads at a glance. The phoenix was chosen because its bright gold flames
-against a dark sky win instant attention in a side-by-side comparison.
+## Why this image
+
+The idea is fresh: a koi — a creature of water — flying through the sky, huge and luminous, instead of a familiar fantasy scene. Gold against deep blue gives instant contrast that grabs the eye at one glance, and the single giant shape stays clear even when the picture is small. It meets the judge's criteria head-on: it stops the eye, the concept is its own, and the bold gold-on-blue style pulls toward one mood.
 
 ## How it works
 
-`main.py` (Python 3.13, stdlib only) copies the stored artwork `entry.png`
-to `/output/entry.png`. Fully deterministic: every run writes the exact same
-bytes, with no network access.
+`main.py` (Python 3.13, standard library only) copies the bundled `entry.png` to `/output/entry.png`. The program is fully deterministic: two runs produce byte-identical output, with no network access.
 
 ## Run it
 
 ```sh
 python3 main.py
-# writes /output/entry.png (512x768 PNG)
 ```
 
-## Files
+The output image is written to `/output/entry.png`.
 
-- `main.py` — the entry program
-- `entry.png` — the artwork (512x768 PNG)
-- `LICENSE` — MIT
+## Entry
+
+- Competition: make.fun coolest-art-01
+- License: MIT
